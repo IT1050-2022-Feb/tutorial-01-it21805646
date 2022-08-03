@@ -5,6 +5,13 @@
 #include <stdio.h>
 
 int main() {
+  int mark1=10,mark2=20;
+  float average;
+
+  average=(mark1+mark2)/2;
+
+  printf("%.2f",average);
+  
   
   return 0;
 }
